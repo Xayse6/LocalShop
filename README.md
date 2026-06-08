@@ -27,4 +27,4 @@ O aplicativo permite o gerenciamento de lojas por meio das operações CRUD (Cre
 
 **Guilherme Augusto Trindade da Luz**
 
-Projeto desenvolvido para a disciplina de **Programação para Dispositivos Móveis**, sob orientação do **Professor James William Zeri de Campos**.
+Projeto desenvolvido para a disciplina de **Programação para Dispositivos Móveis**, sob orientação do Professor **James William Zeri de Campos**.
