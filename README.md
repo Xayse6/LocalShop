@@ -21,8 +21,10 @@ Aplicativo desenvolvido em React Native para gerenciamento de lojas, permitindo 
 
 ## 📱 Descrição
 
-O aplicativo permite o gerenciamento de lojas através de operações CRUD (Create, Read, Update e Delete), utilizando o Firebase Firestore para armazenamento dos dados em nuvem. A navegação entre telas é realizada com React Navigation, proporcionando uma experiência simples e organizada.
+O aplicativo permite o gerenciamento de lojas por meio das operações CRUD (Create, Read, Update e Delete), utilizando o Firebase Firestore para armazenamento dos dados em nuvem. A navegação entre as telas é realizada com React Navigation, proporcionando uma experiência simples, organizada e intuitiva para o usuário.
 
-## 👨‍💻 Guilherme Augusto Trindade da Luz
+## 👨‍💻 Autor
 
-Desenvolvido para fins de estudo e prática com React Native e Firebase.
+**Guilherme Augusto Trindade da Luz**
+
+Projeto desenvolvido para a disciplina de **Programação para Dispositivos Móveis**, sob orientação do **Professor James William Zeri de Campos**.
