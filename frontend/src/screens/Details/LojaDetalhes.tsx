@@ -1,13 +1,21 @@
 import { View, Text, Image, Button, TouchableOpacity, Alert } from 'react-native';
 import { styles } from './StyleDetalhes';
-import { useState } from 'react';
+import { useCallback, useState } from 'react';
 import { api } from '../../services/api';
+import { useLojas } from '../../hooks/useLojas';
+import { useFocusEffect } from '@react-navigation/native';
 
 export default function LojaDetalhes({ route, navigation }) {
 
   const [deletando, setDeletando] = useState(false);
 
+  // const { recarregarLojas } = useLojas();
 
+  // useFocusEffect(
+  //   useCallback(() => {
+  //     recarregarLojas();
+  //   }, [])
+  // );
 
   // Pegamos os dados passados pela navegação
   const { loja } = route.params;

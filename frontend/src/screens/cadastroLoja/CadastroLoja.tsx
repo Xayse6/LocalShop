@@ -55,6 +55,7 @@ export default function CadastroLoja({route}) {
         "Sucesso",
         "Loja atualizada com sucesso!"
       );
+      
     } else {
       await api.post("/lojas", {
         nome,

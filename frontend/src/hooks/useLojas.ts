@@ -12,7 +12,7 @@ export interface Loja{
 export function useLojas(){
     const [lojas, setLojas]= useState<Loja[]>([]);
     const[loading, setLoading]= useState(true);
-    async function caregarLojas() {
+    async function carregarLojas() {
         try{
             setLoading(true);
 
@@ -25,6 +25,6 @@ export function useLojas(){
             setLoading(false);
         }
     }
-    useEffect(()=>{caregarLojas();},[]);
-    return {lojas, loading, recaregarLojas:caregarLojas};
+    useEffect(()=>{carregarLojas();},[]);
+    return {lojas, loading, recarregarLojas:carregarLojas};
 }

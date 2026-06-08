@@ -12,11 +12,11 @@ import { useCallback } from 'react';
 type HomeScreenNavigationProp = StackNavigationProp<RootStackParamList, "Home">;
 
 export default function HomeScreen() {
-  const { lojas, loading, recaregarLojas } = useLojas();
+  const { lojas, loading, recarregarLojas } = useLojas();
 
   useFocusEffect(
     useCallback(() => {
-      recaregarLojas();
+      recarregarLojas();
     }, [])
   );
   const navigation = useNavigation<HomeScreenNavigationProp>();
